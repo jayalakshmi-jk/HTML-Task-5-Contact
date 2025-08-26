@@ -1,0 +1,105 @@
+
+.container{
+    padding: 50px;
+    background-color: rgb(140, 144, 145);
+}
+.link{
+  display: inline-block;
+}
+.img{
+    margin-right: 5px;
+    height: 40px;
+    width:40px;
+    padding: 40px;
+    border-radius: 50px;
+    margin-top:65px;
+}
+.contact-links{
+    background-color:rgb(235, 134, 189);
+    border-radius: 30px;
+    height: 400px;
+    float: left;
+    margin-left: 150px;
+
+}
+.contact-form-wrapper{
+    background-color: rgb(202, 120, 223);
+    width: 500px;
+    margin-left: 530px;
+   height: 400px;
+   text-align: center;
+   margin-top: 140px;
+   border-radius: 20px;
+
+}
+#myBtn{
+    margin-top: 193px;
+    margin-right: 20px;
+    border-radius: 5px;
+   height: 43px;
+   width: 85px;
+}
+.submit-btn{
+    background-color: rgb(39, 70, 70);
+    border-radius: 10%;
+    width: 72px;
+    height: 37px;
+    color: white;
+    margin-left: -22px;
+    margin-top:24px;
+}
+.close{
+    margin-left: 750px;
+    font-size:xx-large;
+
+}
+
+.modal{
+   position: fixed;
+   z-index: 1;
+   left:0;
+   top:0;
+   width:100%;
+   height: 100%;
+   background-color: rgba(250, 244, 244, 0.418);
+   
+}
+#myModal{
+    background-color: white;
+    border-radius: 10px;
+    width: 800px;
+    height: 300px;
+    margin-right: 10px;
+    margin-left: 190px;
+    margin-top: 17%;
+
+}
+.model-content{
+    margin-right: 10px;
+
+}
+
+
+/* form */
+.label{
+
+    position: absolute;
+    top: 20px;
+    left: 40px;
+}
+.form-item{
+    position: relative;
+}
+.input{
+    margin-top: 10px;
+    width: 100%;
+    max-width: 730px;
+    height: 40px;
+    margin-top: 18px;
+    border-radius: 10px;
+}
+.input:focus + .label{
+    height: 30px;
+    line-height: 30px;
+    transform: translate(-14px,-25px);
+}
